@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>今日の日付と現在時刻を毎秒表示する</title>
+</head>
+<body>
+    <h1>今日の日付と現在時刻を毎秒表示する</h1>
+    <div id="currentTime"></div>
+
+    <script>
+        "use strict";
+
+        // 今日の日付と現在時刻をウィンドウに表示する
+        function showCurrentTime(){
+            const currentTime = new Date();
+            const now = currentTime.toLocaleString();   // この数値を表す言語依存の文字列を返す
+            console.log(now);   // 確認用
+            document.getElementById("currentTime").textContent = now;
+        }
+
+        // 現在時刻を1000ミリ秒ごとに更新する
+        setInterval(showCurrentTime, 1000);
+
+        // ページの読み込みが完了してから処理を呼び出す
+        addEventListener("load", showCurrentTime);
+
+    </script>
+</body>
+</html>
