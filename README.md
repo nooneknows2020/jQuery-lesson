@@ -14,10 +14,9 @@
 現在時刻を表示する。
 
 - lesson1:現在時刻を毎秒表示する→[実行例](https://nooneknows2020.github.io/jQuery-lesson/currentTime/lesson1/)
-- lesson2:→プラグイン化:[実行例](https://nooneknows2020.github.io/jQuery-lesson/currentTime/lesson2/)
-- lesson3:→任意の要素から実行できるようにする[実行例](https://nooneknows2020.github.io/jQuery-lesson/currentTime/lesson3/)
-- lesson4:オプション設定
-→[実行例](https://nooneknows2020.github.io/jQuery-lesson/currentTime/lesson4/)
+- lesson2:プラグイン化→[実行例](https://nooneknows2020.github.io/jQuery-lesson/currentTime/lesson2/)
+- lesson3:任意の要素から実行できるようにする→[実行例](https://nooneknows2020.github.io/jQuery-lesson/currentTime/lesson3/)
+- lesson4:オプション設定→[実行例](https://nooneknows2020.github.io/jQuery-lesson/currentTime/lesson4/)
 
 ## プラグインのテンプレートの在処
 
